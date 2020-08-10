@@ -1,0 +1,2798 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; 
+}
+
+/*Header*/
+
+header{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	position: sticky;
+}
+
+.logo-container{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+	padding-top: 70px;
+	letter-spacing: 0rem;
+}
+
+.logo-container > h1{
+	color: black;
+	font-size: 60px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.3rem;
+}
+
+#logo-1{
+	position: relative;
+	right: 350px;
+	text-decoration: none;
+}
+
+#logo-2{
+	position: relative;
+	right: 80px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+nav {
+	height: 75px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 75px;
+}
+
+nav > div > ul{
+	display: block;
+	list-style-type: none;	
+}
+
+nav > div > ul > li {
+	margin: 0 20px;
+	color: black;
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+
+nav > div > ul > li:hover{
+	background-color: #228999;
+	width: 208px;
+
+}
+
+.menu-1{
+	margin-top: 50px;
+	font-variant: small-caps;
+}
+
+.menu-2{
+	margin-top: 30px;
+	font-variant: small-caps;
+}
+
+.menu-3{
+	margin-top: 30px;
+	font-variant: small-caps;
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+  height: 400px;
+  width: 200px;
+  position: relative;
+  left: 70px;
+  bottom: 30px;
+  margin: auto;
+}
+
+.slideshow-container img{
+	position: relative;
+	bottom: 30px;
+
+
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 100px;
+  left: 70px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.2s;
+  animation-name: fade;
+  animation-duration: 0.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+/*Submenu Omega*/
+.submenu-omega {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#omega:hover > .submenu-omega, #omega> .submenu-omega:hover {
+	visibility: visible;
+}
+
+
+.submenu-omega > div {
+	width: 25%;
+}
+
+.submenu-omega > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-omega > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Rolex*/
+
+.submenu-rolex {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 30px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#rolex:hover > .submenu-rolex, #rolex> .submenu-rolex:hover {
+	visibility: visible;
+}
+
+
+.submenu-rolex > div {
+	width: 25%;
+}
+
+.submenu-rolex > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-rolex > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Patek Philippe*/
+
+.submenu-patek {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 30px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#patek:hover > .submenu-patek, #patek> .submenu-patek:hover {
+	visibility: visible;
+}
+
+
+.submenu-patek > div {
+	width: 25%;
+}
+
+.submenu-patek > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-patek > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Audemars Piguet*/
+
+.submenu-ap {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 30px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#ap:hover > .submenu-ap, #ap> .submenu-ap:hover {
+	visibility: visible;
+}
+
+
+.submenu-ap > div {
+	width: 25%;
+}
+
+.submenu-ap > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-ap > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Vacheron Constantin*/
+
+.submenu-vc {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 30px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#vc:hover > .submenu-vc, #vc> .submenu-vc:hover {
+	visibility: visible;
+}
+
+
+.submenu-vc > div {
+	width: 25%;
+}
+
+.submenu-vc > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-vc > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Breguet*/
+
+.submenu-breguet {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 30px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#breguet:hover > .submenu-breguet, #breguet> .submenu-breguet:hover {
+	visibility: visible;
+}
+
+
+.submenu-breguet > div {
+	width: 25%;
+}
+
+.submenu-breguet > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-breguet > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Animation Notes*/
+/*nav > div > ul > li{
+	animation-name: changeSize;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes changeSize{
+	from { font-size: 15px;}
+	to {font-size: 16px;}
+
+}*/
+
+/*Section 1*/
+/*What We Offer*/
+
+section{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+}
+
+#video1{
+	position: relative;
+	left: 50vw;
+	bottom: 70vh;
+}
+
+.section1 > .page1 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	padding-top: 10px;
+}
+
+.section1> .page1 > div> ul{
+	display: block;
+	list-style-type: none;
+}
+
+.section1> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 60px;
+	letter-spacing: 0.2rem;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.section1> .page1 > div> ul > li {
+	color: black;
+	padding-bottom: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.section1> .page1 p{
+	font-size: 13px;
+	padding-top: 0px;
+	padding-left: 70px;	
+	letter-spacing: 0rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+}
+
+/*Section2*/
+/*Why a Wil's Watch*/
+
+.section2 > .page2 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	padding-top: 50px;
+}
+
+.section2> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 60px;
+	letter-spacing: 0.3rem;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.section2> .page2 > div> ul{
+	display: block;
+	list-style-type: none;
+	
+}
+
+.section2> .page2 > div> ul > li {
+	margin: 0 20px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.section2> .page2 p{
+	font-size: 13px;
+	padding-bottom: 10px;
+	padding-left: 70px;	
+	letter-spacing: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+}
+
+#official-stocklist1{
+	position: relative;
+	left: 45vw;
+}
+
+#official-stocklist2{
+	position: relative;
+	left: 47vw;
+}
+
+#price-promise-pic{
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 50vw;
+	bottom: 80vh;
+}
+
+#stocklist-pic{
+	height: 140px;
+	width: 140px;
+	position: relative;
+	left: 39vw;
+	bottom: 50vh;
+}
+
+#secure-pic{
+	height: 150px;
+	width: 500px;
+	position: relative;
+	left: 50vw;
+	bottom: 50vh;
+}
+
+/*Testimonials*/
+
+.testi-desc{
+	height: 120vh;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.testi-desc h1{
+	margin-top: 200px;
+}
+
+.testi-desc h1, .testi-desc h2{
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 0.1rem;
+	font-size: 40px;
+	padding-top: 0px;
+}
+
+.testi-text> p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	font-size: 14px;
+	letter-spacing: 0rem;
+	text-align: center;
+}
+
+.testi-area{
+	height: 80%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	position: relative;
+	bottom: 90px;
+	transition: 0.2s;
+	margin-top: 20px;
+}
+
+.testi-box > .testi-text{
+	padding: 25px;
+}
+
+.testi-box > .testi-img > img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	z-index: 1;
+	bottom: 23px;
+}
+
+.testi-box > .testi-img > h1{
+	position: relative;
+	bottom: 25px;
+}
+
+.testi-box > .testi-img{
+	text-align: center;
+}
+
+.testi-box > hr{
+	border-top: 1px solid darkgrey;
+}
+
+.testi-desc > .testi-area > .testi-box{
+	border: 1px solid darkgrey;
+	width: 250px;
+	height: 270px;
+	margin: 20px;
+	position: relative;
+}
+
+.testi-box:hover {
+	box-shadow: 0px 80px 53px -75px rgba(0,0,0,0.75);
+	bottom: 8px;
+	transition: 0.2s;
+}
+
+/*Footer*/
+
+/*Contact Us*/
+
+.contact-me{
+	background-color: #e6e6e6;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding-top: 10px;	
+}
+
+h4{
+	position: relative;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.3rem;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.right > form {
+	height: 60vh;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+}
+
+form > h4 {
+	font-size: 60px;
+	text-align: left;
+	margin: 0px;
+	padding-left: 50px;
+}
+
+input {
+	display: block;
+	border: 2px #413d3d;
+	margin: 10px auto;
+	height: 35px;
+	width: 300px;
+	border-radius: 10px;
+	position: relative;
+	right: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+#message-box{
+	display: block;
+	border: 2px #413d3d;
+	margin: 10px auto;
+	height: 200px;
+	width: 300px;
+	border-radius: 10px;
+	position: relative;
+	right: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn {
+	background-color: #9c8b8b;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	transition: .4s;
+	position: relative;
+	left: 21vw;
+	font-size: 20px;
+}
+
+.btn:hover{
+	background-color: #228999;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gmap-zuitt{
+	position: relative;
+	bottom: 400px;
+	left: 600px;
+}
+
+/*Media Query / Responsiveness*/
+/*iPhone*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation:portrait) {
+	/*Header*/
+
+header{
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	position: sticky;
+}
+
+.logo-container{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+	padding-top: 70px;
+	letter-spacing: 0rem;
+}
+
+.logo-container > h1{
+	color: black;
+	font-size: 30px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0rem;
+}
+
+#logo-1{
+	position: relative;
+	right: 0px;
+	text-decoration: none;
+	position: relative;
+	right: 80px;
+}
+
+#logo-2{
+	position: relative;
+	left: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+nav {
+	height: 75px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 75px;
+}
+
+nav > div > ul{
+	display: block;
+	list-style-type: none;	
+}
+
+nav > div > ul > li {
+	margin: 0 20px;
+	color: black;
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	right: 70px;
+}
+
+
+nav > div > ul > li:hover{
+	background-color: #228999;
+	width: 130px;
+
+}
+
+.menu-1{
+	margin-top: 50px;
+	font-variant: small-caps;
+}
+
+.menu-2{
+	margin-top: 30px;
+	font-variant: small-caps;
+}
+
+.menu-3{
+	margin-top: 30px;
+	font-variant: small-caps;
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+  height: 200px;
+  width: 100px;
+  position: relative;
+  left: 70px;
+  bottom: 25px;
+  margin: auto;
+}
+
+.slideshow-container img{
+	position: relative;
+	top: 50px;
+	left: 20px;
+
+
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 220px;
+  left: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Number text (1/18 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 100px;
+  left: 70px;
+  display: none;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.2s;
+  animation-name: fade;
+  animation-duration: 0.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+/*Submenu Omega*/
+.submenu-omega {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 50px;
+	top: -20px;
+	visibility: hidden;
+	color: black;
+	font-size: 6px;
+	display: none;
+}
+
+#omega:hover > .submenu-omega, #omega> .submenu-omega:hover {
+	visibility: visible;
+}
+
+
+.submenu-omega > div {
+	width: 25%;
+}
+
+.submenu-omega > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-omega > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Rolex*/
+
+.submenu-rolex {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	top: -20px;
+	visibility: hidden;
+	color: black;
+	font-size: 10px;
+	display: none;
+}
+
+#rolex:hover > .submenu-rolex, #rolex> .submenu-rolex:hover {
+	visibility: visible;
+}
+
+
+.submenu-rolex > div {
+	width: 25%;
+}
+
+.submenu-rolex > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-rolex > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Patek Philippe*/
+
+.submenu-patek {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	top: -20px;
+	visibility: hidden;
+	color: black;
+	font-size: 10px;
+	display: none;
+}
+
+#patek:hover > .submenu-patek, #patek> .submenu-patek:hover {
+	visibility: visible;
+}
+
+
+.submenu-patek > div {
+	width: 25%;
+}
+
+.submenu-patek > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-patek > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Audemars Piguet*/
+
+.submenu-ap {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	top: -20px;
+	visibility: hidden;
+	color: black;
+	font-size: 10px;
+	display: none;
+}
+
+#ap:hover > .submenu-ap, #ap> .submenu-ap:hover {
+	visibility: visible;
+}
+
+
+.submenu-ap > div {
+	width: 25%;
+}
+
+.submenu-ap > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-ap > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Vacheron Constantin*/
+
+.submenu-vc {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	top: -20px;
+	visibility: hidden;
+	color: black;
+	font-size: 10px;
+	display: none;
+}
+
+#vc:hover > .submenu-vc, #vc> .submenu-vc:hover {
+	visibility: visible;
+}
+
+
+.submenu-vc > div {
+	width: 25%;
+}
+
+.submenu-vc > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-vc > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Breguet*/
+
+.submenu-breguet {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	top: -20px;
+	visibility: hidden;
+	color: black;
+	font-size: 10px;
+	display: none;
+}
+
+#breguet:hover > .submenu-breguet, #breguet> .submenu-breguet:hover {
+	visibility: visible;
+}
+
+
+.submenu-breguet > div {
+	width: 25%;
+}
+
+.submenu-breguet > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-breguet > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Animation Notes*/
+/*nav > div > ul > li{
+	animation-name: changeSize;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes changeSize{
+	from { font-size: 15px;}
+	to {font-size: 16px;}
+
+}*/
+
+/*Section 1*/
+/*What We Offer*/
+
+section{
+	height: 75vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+}
+
+#video1{
+	position: relative;
+	left: 50vw;
+	bottom: 70vh;
+	display: none;
+}
+
+.section1 > .page1 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.section1> .page1 > div> ul{
+	display: block;
+	list-style-type: none;
+}
+
+.section1> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 0.2rem;
+	padding-top: 50px;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.section1> .page1 > div> ul > li {
+	color: black;
+	padding-bottom: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	right: 20px;
+}
+
+.section1> .page1 p{
+	font-size: 10px;
+	padding-bottom: 20px;
+	padding-left: 0px;	
+	letter-spacing: 0rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	text-align: center;
+	position: relative;
+	right: 20px;
+}
+
+/*Section2*/
+/*Why a Wil's Watch*/
+
+.section2{
+	height: 90vh;
+}
+.section2 > .page2 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.section2> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+
+.section2> .page2 > div> ul{
+	display: block;
+	list-style-type: none;
+	
+}
+
+.section2> .page2 > div> ul > li {
+	margin: 0px;
+	color: black;
+	padding-top: 80px;
+	padding-bottom: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+	right: 20px;
+
+}
+
+.section2> .page2 p{
+	font-size: 10px;
+	padding-bottom: 10px;
+	padding-left: 70px;	
+	letter-spacing: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	position: relative;
+	right: 20px;
+}
+
+#official-stocklist1{
+	text-align: center;
+	
+}
+
+#official-stocklist2{
+	text-align: center;
+	position: relative;
+
+}
+
+
+#price-promise-pic{
+	height: 80px;
+	width: 80px;
+	position: relative;
+	left: 5vw;
+	bottom: 95vh;
+}
+
+#stocklist-pic{
+	height: 70px;
+	width: 70px;
+	position: relative;
+	left: -18vw;
+	bottom: 64vh;
+}
+
+#secure-pic{
+	height: 80px;
+	width: 250px;
+	position: relative;
+	left: 0vw;
+	bottom: 42vh;
+}
+
+/*Testimonials*/
+
+.testi-desc{
+	height: 150vh;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.testi-desc h1{
+	margin-top: 200px;
+}
+
+.testi-desc h1, .testi-desc h2{
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 0rem;
+	font-size: 30px;
+	padding-top: 0px;
+}
+
+.testi-text> p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	font-size: 15px;
+	letter-spacing: 0rem;
+	text-align: center;
+}
+
+.testi-area{
+	height: 80%;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	position: relative;
+	bottom: 50px;
+	transition: 0.2s;
+	margin-top: 20px;
+}
+
+.testi-box > .testi-text{
+	padding: 10px;
+
+}
+
+.testi-box > .testi-img > img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	z-index: 1;
+	bottom: 23px;
+}
+
+.testi-box > .testi-img > h1{
+	position: relative;
+	bottom: 25px;
+}
+
+.testi-box > .testi-img{
+	text-align: center;
+}
+
+
+.testi-box > hr{
+	border-top: 1px solid darkgrey;
+}
+
+.testi-desc > .testi-area > .testi-box{
+	border: 1px solid darkgrey;
+	width: 250px;
+	height: 270px;
+	margin: 20px;
+	position: relative;
+}
+
+.testi-box:hover {
+	box-shadow: 0px 80px 53px -75px rgba(0,0,0,0.75);
+	bottom: 8px;
+	transition: 0.2s;
+}
+
+/*Footer*/
+
+/*Contact Us*/
+
+.contact-me{
+	height: 100vh;
+	background-color: #e6e6e6;
+	background-size: cover;
+	background-position: center;
+	padding-top: 10px;	
+}
+
+h4{
+	position: relative;
+	top: 150px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.3rem;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.right > form {
+	height: 60vh;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+}
+
+form > h4 {
+	font-size: 30px;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	right: 10px;
+}
+
+
+input {
+	display: block;
+	border: 2px #413d3d;
+	margin: 5px auto;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+	position: relative;
+	right: 25%;
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	top: 130px;
+	left: 10px;
+}
+
+#message-box{
+	display: block;
+	border: 2px #413d3d;
+	margin: 5px auto;
+	height: 100px;
+	width: 200px;
+	border-radius: 10px;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.btn {
+	background-color: #9c8b8b;
+	color: white;
+	border-style: none;
+	padding: 5px 10px;
+	border-radius: 20px;
+	transition: .4s;
+	position: relative;
+	top: 130px;
+	left: 165px;
+	font-size: 15px;
+}
+
+.btn:hover{
+	background-color: #228999;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gmap-zuitt{
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	display: none;
+}
+
+}
+
+
+
+/*Media Query / Responsiveness*/
+/*iPad*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	/*Header*/
+
+header{
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	position: sticky;
+}
+
+.logo-container{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+	padding-top: 70px;
+	letter-spacing: 0rem;
+}
+
+.logo-container > h1{
+	color: black;
+	font-size: 60px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0rem;
+}
+
+#logo-1{
+	position: relative;
+	right: 0px;
+	text-decoration: none;
+	position: relative;
+	right: 180px;
+}
+
+#logo-2{
+	position: relative;
+	left: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+nav {
+	height: 75px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 75px;
+}
+
+nav > div > ul{
+	display: block;
+	list-style-type: none;	
+}
+
+nav > div > ul > li {
+	margin: 0 20px;
+	color: black;
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	position: relative;
+	right: 70px;
+	font-size: 30px;
+}
+
+
+nav > div > ul > li:hover{
+	background-color: #228999;
+	width: 230px;
+
+}
+
+.menu-1{
+	margin-top: 60px;
+	font-variant: small-caps;
+}
+
+.menu-2{
+	margin-top: 40px;
+	font-variant: small-caps;
+}
+
+.menu-3{
+	margin-top: 40px;
+	font-variant: small-caps;
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+  height: 400px;
+  width: 200px;
+  position: relative;
+  left: 170px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.slideshow-container img{
+	position: relative;
+	top: 50px;
+	left: 20px;
+
+
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 380px;
+  left: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Number text (1/18 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 100px;
+  left: 70px;
+  display: none;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.2s;
+  animation-name: fade;
+  animation-duration: 0.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*Submenu Omega*/
+.submenu-omega {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 240px;
+	top: -50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+.submenu > div > p {
+	font-size: 50px;
+	font
+
+
+}
+#omega:hover > .submenu-omega, #omega> .submenu-omega:hover {
+	visibility: visible;
+}
+
+.submenu-omega > div {
+	width: 25%;
+}
+
+.submenu-omega > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-omega > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Rolex*/
+
+.submenu-rolex {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 240px;
+	top: -50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#rolex:hover > .submenu-rolex, #rolex> .submenu-rolex:hover {
+	visibility: visible;
+}
+
+
+.submenu-rolex > div {
+	width: 25%;
+}
+
+.submenu-rolex > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-rolex > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Patek Philippe*/
+
+.submenu-patek {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 240px;
+	top: -50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#patek:hover > .submenu-patek, #patek> .submenu-patek:hover {
+	visibility: visible;
+}
+
+
+.submenu-patek > div {
+	width: 25%;
+}
+
+.submenu-patek > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-patek > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Audemars Piguet*/
+
+.submenu-ap {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 240px;
+	top: -50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#ap:hover > .submenu-ap, #ap> .submenu-ap:hover {
+	visibility: visible;
+}
+
+
+.submenu-ap > div {
+	width: 25%;
+}
+
+.submenu-ap > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-ap > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Vacheron Constantin*/
+
+.submenu-vc {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	top: -50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#vc:hover > .submenu-vc, #vc> .submenu-vc:hover {
+	visibility: visible;
+}
+
+
+.submenu-vc > div {
+	width: 25%;
+}
+
+.submenu-vc > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-vc > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Breguet*/
+
+.submenu-breguet {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 240px;
+	top: -50px;
+	visibility: hidden;
+	color: black;
+	font-size: 15px;
+}
+
+#breguet:hover > .submenu-breguet, #breguet> .submenu-breguet:hover {
+	visibility: visible;
+}
+
+
+.submenu-breguet > div {
+	width: 25%;
+}
+
+.submenu-breguet > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-breguet > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Animation Notes*/
+/*nav > div > ul > li{
+	animation-name: changeSize;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes changeSize{
+	from { font-size: 15px;}
+	to {font-size: 16px;}
+
+}*/
+
+/*Section 1*/
+/*What We Offer*/
+
+section{
+	height: 110vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+}
+
+#video1{
+	position: relative;
+	left: 50vw;
+	bottom: 70vh;
+	display: none;
+}
+
+.section1 > .page1 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.section1> .page1 > div> ul{
+	display: block;
+	list-style-type: none;
+}
+
+.section1> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 80px;
+	letter-spacing: 0.2rem;
+	padding-top: 50px;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.section1> .page1 > div> ul > li {
+	color: black;
+	padding-bottom: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	position: relative;
+	right: 20px;
+}
+
+.section1> .page1 p{
+	font-size: 20px;
+	padding-bottom: 40px;
+	padding-left: 50px;	
+	letter-spacing: 0rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	text-align: left;
+	position: relative;
+	right: 20px;
+	line-height: 1.5;
+}
+
+/*Section2*/
+/*Why a Wil's Watch*/
+
+.section2 {
+	height: 85vh;
+}
+
+.section2 > .page2 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.section2> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 80px;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+
+.section2> .page2 > div> ul{
+	display: block;
+	list-style-type: none;
+	
+}
+
+.section2> .page2 > div> ul > li {
+	margin: 0px;
+	color: black;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	right: 20px;
+
+}
+
+.section2> .page2 p{
+	font-size: 20px;
+	padding-bottom: 40px;
+	padding-left: 50px;	
+	letter-spacing: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	position: relative;
+	right: 20px;
+	line-height: 1.5;
+}
+
+#official-stocklist1{
+	text-align: center;
+	
+}
+
+#official-stocklist2{
+	text-align: center;
+	position: relative;
+
+}
+
+
+#price-promise-pic{
+	height: 120px;
+	width: 120px;
+	position: relative;
+	left: 40vw;
+	bottom: 78vh;
+}
+
+#stocklist-pic{
+	height: 110px;
+	width: 110px;
+	position: relative;
+	left: 33vw;
+	bottom: 54vh;
+}
+
+#secure-pic{
+	height: 120px;
+	width: 300px;
+	position: relative;
+	left: 27vw;
+	bottom: 27vh;
+}
+
+/*Testimonials*/
+
+.testi-desc{
+	height: 100vh;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.testi-desc h1{
+	margin-top: 200px;
+}
+
+.testi-desc h1, .testi-desc h2{
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 0rem;
+	font-size: 80px;
+	padding-top: 0px;
+}
+
+.testi-text> p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	font-size: 20px;
+	letter-spacing: 0rem;
+	text-align: center;
+}
+
+.testi-area{
+	height: 100%;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+	transition: 0.2s;
+	margin-top: 30px;
+}
+
+.testi-box > .testi-text{
+	padding: 5px 5px;
+
+}
+
+.testi-box > .testi-img > img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	z-index: 1;
+	bottom: 23px;
+}
+
+.testi-box > .testi-img > h1{
+	position: relative;
+	bottom: 25px;
+}
+
+.testi-box > .testi-img{
+	text-align: center;
+}
+
+
+.testi-box > hr{
+	border-top: 1px solid darkgrey;
+}
+
+.testi-desc > .testi-area > .testi-box{
+	border: 1px solid darkgrey;
+	width: 250px;
+	height: 270px;
+	margin: 20px;
+	position: relative;
+}
+
+.testi-box:hover {
+	box-shadow: 0px 80px 53px -75px rgba(0,0,0,0.75);
+	bottom: 8px;
+	transition: 0.2s;
+}
+
+/*Footer*/
+
+/*Contact Us*/
+
+.contact-me{
+	height: 155vh;
+	background-color: #e6e6e6;
+	background-size: cover;
+	background-position: center;
+	padding-top: 10px;	
+}
+
+h4{
+	position: relative;
+	top: 520px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.3rem;
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+
+.right > form {
+	height: 60vh;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+}
+
+form > h4 {
+	font-size: 80px;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	right: 10px;
+}
+
+
+input {
+	display: block;
+	border: 2px #413d3d;
+	margin: 5px auto;
+	height: 50px;
+	width: 400px;
+	border-radius: 10px;
+	position: relative;
+	right: 25%;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	left: 10px;
+	top: 520px;
+}
+
+#message-box{
+	display: block;
+	border: 2px #413d3d;
+	margin: 5px auto;
+	height: 200px;
+	width: 400px;
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.btn {
+	background-color: #9c8b8b;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	transition: .4s;
+	position: relative;
+	top: 520px;
+	left: 335px;
+	font-size: 25px;
+}
+
+.btn:hover{
+	background-color: #228999;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gmap-zuitt{
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	display: none;
+}
+
+}
+
+/*Media Query / Responsiveness*/
+/*Desktop*/
+@media only screen and (min-width: 1280px) {
+
+/*Header*/
+
+header{
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	position: sticky;
+}
+
+.logo-container{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+	padding-top: 70px;
+	letter-spacing: 0rem;
+}
+
+.logo-container > h1{
+	color: black;
+	font-size: 80px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.3rem;
+}
+
+#logo-1{
+	position: relative;
+	right: 260px;
+	text-decoration: none;
+}
+
+#logo-2{
+	position: relative;
+	right: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+nav {
+	height: 75px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 75px;
+}
+
+nav > div > ul{
+	display: block;
+	list-style-type: none;	
+}
+
+nav > div > ul > li {
+	margin: 0 20px;
+	color: black;
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+
+nav > div > ul > li:hover{
+	background-color: #228999;
+	width: 208px;
+
+}
+
+.menu-1{
+	margin-top: 50px;
+	font-variant: small-caps;
+}
+
+.menu-2{
+	margin-top: 30px;
+	font-variant: small-caps;
+}
+
+.menu-3{
+	margin-top: 30px;
+	font-variant: small-caps;
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 100px;
+  bottom: 60px;
+  margin: auto;
+}
+
+.slideshow-container img{
+	position: relative;
+	bottom: 30px;
+
+
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: -120px;
+  left: 105px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.2s;
+  animation-name: fade;
+  animation-duration: 0.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+/*Submenu Omega*/
+.submenu-omega {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 50px;
+	visibility: hidden;
+	color: black;
+	font-size: 20px;
+}
+
+#omega:hover > .submenu-omega, #omega> .submenu-omega:hover {
+	visibility: visible;
+}
+
+
+.submenu-omega > div {
+	width: 25%;
+}
+
+.submenu-omega > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-omega > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Rolex*/
+
+.submenu-rolex {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 45px;
+	visibility: hidden;
+	color: black;
+	font-size: 20px;
+}
+
+#rolex:hover > .submenu-rolex, #rolex> .submenu-rolex:hover {
+	visibility: visible;
+}
+
+
+.submenu-rolex > div {
+	width: 25%;
+}
+
+.submenu-rolex > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-rolex > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Patek Philippe*/
+
+.submenu-patek {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 50px;
+	visibility: hidden;
+	color: black;
+	font-size: 20px;
+}
+
+#patek:hover > .submenu-patek, #patek> .submenu-patek:hover {
+	visibility: visible;
+}
+
+
+.submenu-patek > div {
+	width: 25%;
+}
+
+.submenu-patek > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-patek > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Audemars Piguet*/
+
+.submenu-ap {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 50px;
+	visibility: hidden;
+	color: black;
+	font-size: 20px;
+}
+
+#ap:hover > .submenu-ap, #ap> .submenu-ap:hover {
+	visibility: visible;
+}
+
+
+.submenu-ap > div {
+	width: 25%;
+}
+
+.submenu-ap > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-ap > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Vacheron Constantin*/
+
+.submenu-vc {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 50px;
+	visibility: hidden;
+	color: black;
+	font-size: 20px;
+}
+
+#vc:hover > .submenu-vc, #vc> .submenu-vc:hover {
+	visibility: visible;
+}
+
+
+.submenu-vc > div {
+	width: 25%;
+}
+
+.submenu-vc > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-vc > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Submenu Breguet*/
+
+.submenu-breguet {
+	width: 850px;
+	border-radius: 0px;
+	height: 0px;
+	display:flex;
+	position: relative;
+	left: 235px;
+	bottom: 50px;
+	visibility: hidden;
+	color: black;
+	font-size: 20px;
+}
+
+#breguet:hover > .submenu-breguet, #breguet> .submenu-breguet:hover {
+	visibility: visible;
+}
+
+
+.submenu-breguet > div {
+	width: 25%;
+}
+
+.submenu-breguet > div > h4, .submenu > div > p {
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu-breguet > div > p:hover {
+	background-color: darkgray;
+}
+
+/*Animation Notes*/
+/*nav > div > ul > li{
+	animation-name: changeSize;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes changeSize{
+	from { font-size: 15px;}
+	to {font-size: 16px;}
+
+}*/
+
+/*Section 1*/
+/*What We Offer*/
+
+.section1{
+	height: 95vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+}
+
+#video1{
+	position: relative;
+	left: 50vw;
+	bottom: 60vh;
+}
+
+.section1 > .page1 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	padding-top: 10px;
+}
+
+.section1> .page1 > div> ul{
+	display: block;
+	list-style-type: none;
+}
+
+.section1> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 80px;
+	letter-spacing: 0.2rem;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.section1> .page1 > div> ul > li {
+	color: black;
+	padding-bottom: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.section1> .page1 p{
+	font-size: 13px;
+	padding-top: 0px;
+	padding-left: 70px;	
+	letter-spacing: 0rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+}
+
+/*Section2*/
+/*Why a Wil's Watch*/
+
+.section2{
+	height: 95vh;
+}
+
+.section2 > .page2 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	padding-top: 50px;
+}
+
+.section2> div> h1{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	font-size: 80px;
+	letter-spacing: 0.3rem;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.section2> .page2 > div> ul{
+	display: block;
+	list-style-type: none;
+	
+}
+
+.section2> .page2 > div> ul > li {
+	margin: 0 20px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.section2> .page2 p{
+	font-size: 13px;
+	padding-bottom: 10px;
+	padding-left: 70px;	
+	letter-spacing: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+}
+
+#official-stocklist1{
+	position: relative;
+	left: 45vw;
+}
+
+#official-stocklist2{
+	position: relative;
+	left: 47vw;
+}
+
+#price-promise-pic{
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 50vw;
+	bottom: 65vh;
+}
+
+#stocklist-pic{
+	height: 140px;
+	width: 140px;
+	position: relative;
+	left: 39vw;
+	bottom: 42vh;
+}
+
+#secure-pic{
+	height: 150px;
+	width: 500px;
+	position: relative;
+	left: 48vw;
+	bottom: 42vh;
+}
+
+/*Testimonials*/
+
+.testi-desc{
+	height: 120vh;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.testi-desc h1{
+	margin-top: 200px;
+}
+
+.testi-desc h1, .testi-desc h2{
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 0.1rem;
+	font-size: 80px;
+	padding-top: 0px;
+}
+
+.testi-text> p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+	font-size: 25px;
+	letter-spacing: 0rem;
+	text-align: center;
+}
+
+.testi-area{
+	height: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	position: relative;
+	bottom: 200px;
+	transition: 0.2s;
+	margin-top: -75px;
+}
+
+.testi-box > .testi-text{
+	padding: 5px;
+}
+
+.testi-box > .testi-img > img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	z-index: 1;
+	bottom: 23px;
+}
+
+.testi-box > .testi-img > h1{
+	position: relative;
+	bottom: 25px;
+}
+
+.testi-p{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.testi-box > .testi-img{
+	text-align: center;
+}
+
+
+.testi-desc > .testi-area > .testi-box{
+	border: 2px solid darkgrey;
+	width: 300px;
+	height: 350px;
+	margin: 10px;
+	position: relative;
+}
+
+.testi-box:hover {
+	box-shadow: 0px 80px 53px -75px rgba(0,0,0,0.75);
+	bottom: 8px;
+	transition: 0.2s;
+}
+
+/*Footer*/
+
+/*Contact Us*/
+
+.contact-me{
+	background-color: #e6e6e6;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding-top: 10px;	
+}
+
+h4{
+	position: relative;
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	letter-spacing: 0.3rem;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.right > form {
+	height: 60vh;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+}
+
+form > h4 {
+	font-size: 80px;
+	text-align: left;
+	margin: 0px;
+	padding-left: 50px;
+}
+
+input {
+	display: block;
+	border: 2px #413d3d;
+	margin: 10px auto;
+	height: 60px;
+	width: 450px;
+	border-radius: 10px;
+	position: relative;
+	right: 25%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#message-box{
+	display: block;
+	border: 2px #413d3d;
+	margin: 10px auto;
+	height: 200px;
+	width: 450px;
+	border-radius: 10px;
+	position: relative;
+	right: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn {
+	background-color: #9c8b8b;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	transition: .4s;
+	position: relative;
+	left: 21vw;
+	font-size: 25px;
+}
+
+.btn:hover{
+	background-color: #228999;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gmap-zuitt{
+	position: relative;
+	bottom: 480px;
+	left: 700px;
+}
+}
